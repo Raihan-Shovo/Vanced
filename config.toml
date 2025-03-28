@@ -58,7 +58,7 @@ build-mode = "both"
 riplib = true
 included-patches = "'Custom branding' 'Remove player controls background'"
 excluded-patches = "'Disable rolling number animations' 'Spoof app version' 'Announcements'"
-patcher-args = "-OappName=YouTube Vanced -OiconPath=res/icons/YT "
+patcher-args = "-OiconPath=res/icons/YT "
 version = "20.11.37"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"

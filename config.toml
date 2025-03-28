@@ -7,6 +7,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
+enabled = false
 build-mode = "both"
 excluded-patches = ""
 included-patches = ""
@@ -17,6 +18,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music]
+enabled = false
 build-mode = "both"
 arch = "both"
 riplib = true
@@ -25,6 +27,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [GooglePhotos]
+enabled = false
 build-mode = "both"
 arch = "both"
 version = "auto"
@@ -54,6 +57,7 @@ rv-brand = "Vanced.E"
 build-mode = "both"
 riplib = true
 included-patches = "'Custom branding' 'Remove player controls background'"
+excluded-patches = "'Disable rolling number animations' 'Spoof app version' 'Announcements'"
 patcher-args = "-OappName=YouTube Vanced -OiconPath=res/icons/YT "
 version = "20.11.37"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
